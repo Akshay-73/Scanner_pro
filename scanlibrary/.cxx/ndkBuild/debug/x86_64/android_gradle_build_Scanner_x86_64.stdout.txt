@@ -1,0 +1,3 @@
+[x86_64] Compile++      : Scanner <= scan.cpp
+[x86_64] Prebuilt       : libopencv_java3.so <= F:/AndroidScannerDemo-master/ScanDemoExample/scanlibrary/src/main/jni/sdk/native/jni/../libs/x86_64/
+[x86_64] SharedLibrary  : libScanner.so

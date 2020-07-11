@@ -1,0 +1,12 @@
+F:/AndroidScannerDemo-master/ScanDemoExample/scanlibrary/src/main/jni/scan.cpp:104:79: warning: format specifies type 'int' but the argument has type 'std::__ndk1::vector<std::__ndk1::vector<cv::Point_<int>, std::__ndk1::allocator<cv::Point_<int> > >, std::__ndk1::allocator<std::__ndk1::vector<cv::Point_<int>, std::__ndk1::allocator<cv::Point_<int> > > > >::size_type' (aka 'unsigned long') [-Wformat]
+        __android_log_print(ANDROID_LOG_VERBOSE, APPNAME, "Scaning size() %d",squares.size());
+                                                                          ~~  ^~~~~~~~~~~~~~
+                                                                          %lu
+F:/AndroidScannerDemo-master/ScanDemoExample/scanlibrary/src/main/jni/scan.cpp:120:1: warning: control may reach end of non-void function [-Wreturn-type]
+}
+^
+F:/AndroidScannerDemo-master/ScanDemoExample/scanlibrary/src/main/jni/scan.cpp:415:53: warning: implicit conversion of NULL constant to 'jint' (aka 'int') [-Wnull-conversion]
+        env->ReleaseFloatArrayElements(jArray, ptr, NULL);
+             ~~~~~~~~~~~~~~~~~~~~~~~~~              ^~~~
+                                                    0
+3 warnings generated.

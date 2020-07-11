@@ -1,0 +1,34 @@
+{
+  "buildFiles": [
+    "F:\\AndroidScannerDemo-master\\ScanDemoExample\\scanlibrary\\src\\main\\jni\\Android.mk",
+    "F:\\AndroidScannerDemo-master\\ScanDemoExample\\scanlibrary\\src\\main\\jni\\Application.mk"
+  ],
+  "cleanCommands": [
+    "C:\\Users\\user\\AppData\\Local\\Android\\Sdk\\ndk\\21.0.6113669\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dF:\\AndroidScannerDemo-master\\ScanDemoExample\\scanlibrary\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dF:\\AndroidScannerDemo-master\\ScanDemoExample\\scanlibrary\\src\\main\\jni\\Application.mk APP_ABI\u003dx86_64 NDK_ALL_ABIS\u003dx86_64 NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-19 NDK_OUT\u003dF:/AndroidScannerDemo-master/ScanDemoExample/scanlibrary/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003dF:\\AndroidScannerDemo-master\\ScanDemoExample\\scanlibrary\\build\\intermediates\\ndkBuild\\release\\lib clean"
+  ],
+  "buildTargetsCommand": "C:\\Users\\user\\AppData\\Local\\Android\\Sdk\\ndk\\21.0.6113669\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dF:\\AndroidScannerDemo-master\\ScanDemoExample\\scanlibrary\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dF:\\AndroidScannerDemo-master\\ScanDemoExample\\scanlibrary\\src\\main\\jni\\Application.mk APP_ABI\u003dx86_64 NDK_ALL_ABIS\u003dx86_64 NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-19 NDK_OUT\u003dF:/AndroidScannerDemo-master/ScanDemoExample/scanlibrary/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003dF:\\AndroidScannerDemo-master\\ScanDemoExample\\scanlibrary\\build\\intermediates\\ndkBuild\\release\\lib {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "Scanner-release-x86_64": {
+      "buildCommand": "C:\\Users\\user\\AppData\\Local\\Android\\Sdk\\ndk\\21.0.6113669\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dF:\\AndroidScannerDemo-master\\ScanDemoExample\\scanlibrary\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dF:\\AndroidScannerDemo-master\\ScanDemoExample\\scanlibrary\\src\\main\\jni\\Application.mk APP_ABI\u003dx86_64 NDK_ALL_ABIS\u003dx86_64 NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-19 NDK_OUT\u003dF:/AndroidScannerDemo-master/ScanDemoExample/scanlibrary/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003dF:\\AndroidScannerDemo-master\\ScanDemoExample\\scanlibrary\\build\\intermediates\\ndkBuild\\release\\lib F:/AndroidScannerDemo-master/ScanDemoExample/scanlibrary/build/intermediates/ndkBuild/release/obj/local/x86_64/libScanner.so",
+      "toolchain": "toolchain-x86_64",
+      "abi": "x86_64",
+      "artifactName": "Scanner",
+      "files": [
+        {
+          "src": "F:\\AndroidScannerDemo-master\\ScanDemoExample\\scanlibrary\\src\\main\\jni\\scan.cpp",
+          "flags": "-target x86_64-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot C:/Users/user/AppData/Local/Android/Sdk/ndk/21.0.6113669/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fno-exceptions -fno-rtti -fPIC -O2 -DNDEBUG -I\"F:/AndroidScannerDemo-master/ScanDemoExample/scanlibrary/src/main/jni/sdk/native/jni/include/opencv\" -I\"F:/AndroidScannerDemo-master/ScanDemoExample/scanlibrary/src/main/jni/sdk/native/jni/include\" -IC:/Users/user/AppData/Local/Android/Sdk/ndk/21.0.6113669/build//../sources/cxx-stl/llvm-libc++/include -IC:/Users/user/AppData/Local/Android/Sdk/ndk/21.0.6113669/build//../sources/cxx-stl/llvm-libc++abi/include -IF:/AndroidScannerDemo-master/ScanDemoExample/scanlibrary/src/main/jni -frtti -fexceptions -DANDROID -fPIC -DANDROID -fsigned-char -nostdinc++ -Wformat -Werror\u003dformat-security -fno-strict-aliasing"
+        }
+      ],
+      "output": "F:\\AndroidScannerDemo-master\\ScanDemoExample\\scanlibrary\\build\\intermediates\\ndkBuild\\release\\obj\\local\\x86_64\\libScanner.so"
+    }
+  },
+  "toolchains": {
+    "toolchain-x86_64": {
+      "cppCompilerExecutable": "C:\\Users\\user\\AppData\\Local\\Android\\Sdk\\ndk\\21.0.6113669\\build\\..\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

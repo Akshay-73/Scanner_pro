@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ScanLibrary</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="scanning">Scanning</string>
+    <string name="done">Save</string>
+    <string name="scan">Next</string>
+    <string name="cantCrop">Cant crop the image, change the points</string>
+    <string name="ok">Ok</string>
+    <string name="loading">Loading</string>
+    <string name="applying_filter">Applying filter</string>
+    <string name="low_memory">Low Memory</string>
+    <string name="low_memory_message">Your phone is low on memory, you may feel some lags while editing images.</string>
+    <string name="redAndWhite">Red White</string>
+    <string name="blueAndWhite">Blue White</string>
+    <string name="greyAndRed">Gray Red</string>
+    <string name="biColor">Bi Color</string>
+    <string name="original">Original</string>
+    <string name="magicColor">Magic Color</string>
+    <string name="grayMode">Gray Mode</string>
+    <string name="blackAndWhite">B And W</string>
+    <string name="privacyPolicy">Privacy policy</string>
+    <string name="contact">Contact us</string>
+    <string name="communicate">Communicate</string>
+    <string name="share">Share</string>
+    <string name="rating">Rate this app</string>
+    <string name="camera">Camera</string>
+    <string name="media">Media</string>
+    <string name="right">Right</string>
+    <string name="left">left</string>
+    <string name="send">Send</string>
+    <string name="pdf">Pdf</string>
+    <string name="title_activity_navigation">NavigationActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share App</string>
+    <string name="menu_send">Send</string>
+    <string name="policy_p">Policy</string>
+    <string name="image_name">Image Name</string>
+</resources>

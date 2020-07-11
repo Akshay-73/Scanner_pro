@@ -1,0 +1,18 @@
+{
+  "buildFiles": [
+    "F:\\AndroidScannerDemo-master\\ScanDemoExample\\scanlibrary\\src\\main\\jni\\Android.mk",
+    "F:\\AndroidScannerDemo-master\\ScanDemoExample\\scanlibrary\\src\\main\\jni\\Application.mk"
+  ],
+  "cleanCommands": [
+    "C:\\Users\\user\\AppData\\Local\\Android\\Sdk\\ndk\\21.0.6113669\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dF:\\AndroidScannerDemo-master\\ScanDemoExample\\scanlibrary\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dF:\\AndroidScannerDemo-master\\ScanDemoExample\\scanlibrary\\src\\main\\jni\\Application.mk APP_ABI\u003dx86_64 NDK_ALL_ABIS\u003dx86_64 NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-19 NDK_OUT\u003dF:/AndroidScannerDemo-master/ScanDemoExample/scanlibrary/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003dF:\\AndroidScannerDemo-master\\ScanDemoExample\\scanlibrary\\build\\intermediates\\ndkBuild\\release\\lib clean"
+  ],
+  "buildTargetsCommand": "C:\\Users\\user\\AppData\\Local\\Android\\Sdk\\ndk\\21.0.6113669\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dF:\\AndroidScannerDemo-master\\ScanDemoExample\\scanlibrary\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dF:\\AndroidScannerDemo-master\\ScanDemoExample\\scanlibrary\\src\\main\\jni\\Application.mk APP_ABI\u003dx86_64 NDK_ALL_ABIS\u003dx86_64 NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-19 NDK_OUT\u003dF:/AndroidScannerDemo-master/ScanDemoExample/scanlibrary/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003dF:\\AndroidScannerDemo-master\\ScanDemoExample\\scanlibrary\\build\\intermediates\\ndkBuild\\release\\lib {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "Scanner-release-x86_64": {
+      "artifactName": "Scanner",
+      "buildCommand": "C:\\Users\\user\\AppData\\Local\\Android\\Sdk\\ndk\\21.0.6113669\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dF:\\AndroidScannerDemo-master\\ScanDemoExample\\scanlibrary\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dF:\\AndroidScannerDemo-master\\ScanDemoExample\\scanlibrary\\src\\main\\jni\\Application.mk APP_ABI\u003dx86_64 NDK_ALL_ABIS\u003dx86_64 NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-19 NDK_OUT\u003dF:/AndroidScannerDemo-master/ScanDemoExample/scanlibrary/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003dF:\\AndroidScannerDemo-master\\ScanDemoExample\\scanlibrary\\build\\intermediates\\ndkBuild\\release\\lib F:/AndroidScannerDemo-master/ScanDemoExample/scanlibrary/build/intermediates/ndkBuild/release/obj/local/x86_64/libScanner.so",
+      "abi": "x86_64",
+      "output": "F:\\AndroidScannerDemo-master\\ScanDemoExample\\scanlibrary\\build\\intermediates\\ndkBuild\\release\\obj\\local\\x86_64\\libScanner.so"
+    }
+  }
+}
